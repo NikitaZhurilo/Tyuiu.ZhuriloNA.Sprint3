@@ -7,7 +7,7 @@ namespace Tyuiu.ZhuriloNA.Sprint3.Task1.V17.Lib
         {
             double result = 1;
             int i = startValue;
-            while (i <= startValue) 
+            while (i <= stopValue) 
             {
                 result *= Math.Pow(2 / Math.Cos(value), i);
                 i++;
