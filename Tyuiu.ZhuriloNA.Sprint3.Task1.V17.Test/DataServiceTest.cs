@@ -8,11 +8,11 @@ namespace Tyuiu.ZhuriloNA.Sprint3.Task1.V17.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int value = 0;
-            int startValue = 0;
-            int stopValue = 0;
+            int value = 1;
+            int startValue = 1;
+            int stopValue = 2;
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
-            Assert.AreEqual(, res);
+            Assert.AreEqual(3.702, res);
         }
     }
 }
