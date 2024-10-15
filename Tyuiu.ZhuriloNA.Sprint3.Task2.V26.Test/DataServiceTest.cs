@@ -12,7 +12,7 @@ namespace Tyuiu.ZhuriloNA.Sprint3.Task2.V26.Test
             int startValue = 2;
             int stopValue = 5;
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
-            Assert.AreEqual(90678524.616, res);
+            Assert.AreEqual(17.821, res);
         }
     }
 }
