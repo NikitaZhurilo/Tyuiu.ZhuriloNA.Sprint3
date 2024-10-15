@@ -6,7 +6,7 @@ namespace Tyuiu.ZhuriloNA.Sprint3.Task4.V27.Lib
         public double Calculate(int startValue, int stopValue)
         {
             double res = 0;
-            for (int i = startValue; i < stopValue; i++)
+            for (int i = startValue; i <= stopValue; i++)
             {
                 if (i == 0)
                 {
