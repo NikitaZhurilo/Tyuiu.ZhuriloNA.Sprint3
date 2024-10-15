@@ -9,7 +9,7 @@ namespace Tyuiu.ZhuriloNA.Sprint3.Task2.V26.Lib
             int i = startValue;
             do
             {
-                result *= (Math.Pow(value, 3) * startValue) + 2;
+                result *= (Math.Pow(value, 3) * i) + 2;
                 i++;
             } while (i <= stopValue);
             return Math.Round(result, 3);
