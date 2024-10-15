@@ -20,7 +20,7 @@ namespace Tyuiu.ZhuriloNA.Sprint3.Task7.V9.Lib
                 //{
                     y = Math.Round((2 * i - 3) / (Math.Cos(i) - 2 * i) + 5 * i - Math.Sin(i), 2);
                     array[count] = y;
-                    count++;
+                    count++; 
                 //}
             }
             return array;

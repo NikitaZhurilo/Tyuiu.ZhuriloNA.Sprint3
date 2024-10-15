@@ -27,7 +27,7 @@ namespace Tyuiu.ZhuriloNA.Sprint3.Task7.V9.Test
             double[] array2; 
             array2 = new double[len];
             array2 = ds.GetMassFunction(startValue, stopValue);
-            CollectionAssert.AreEqual(array, array2);
+            CollectionAssert.AreEqual(array, array2); 
         }
     }
 }

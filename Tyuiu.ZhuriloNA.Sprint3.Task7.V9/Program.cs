@@ -38,7 +38,7 @@ namespace Tyuiu.ZhuriloNA.Sprint3.Task7.V9
             Console.WriteLine("+----------+----------+");
             for (int i = 0; i <= len - 1; i++) 
             {
-                Console.WriteLine("|{0, 5:d}   |  {1, 5:f2}   |", startValue, array[i]);
+                Console.WriteLine("|{0, 5:d}   | {1, 5:f2}   |", startValue, array[i]);
                 startValue++;
             }
             Console.WriteLine("+----------+----------+");
